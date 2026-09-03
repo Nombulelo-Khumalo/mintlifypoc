@@ -9,15 +9,14 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
+  "pages": [
+    {
+      "group": "PoC",
+      "pages": [
+        "poc/markdown-test"
+      ]
+    }
+  ],
     "global": {
       "anchors": [
         {
