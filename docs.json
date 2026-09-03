@@ -13,9 +13,15 @@
     {
       "group": "PoC",
       "pages": [
-        "poc/markdown-test",
+        "poc/markdown-test"
+      ]
+    },
+    {
+      "group": "Advanced",
+      "pages": [
         "poc/page-one",
-        "poc/page-two"
+        "poc/page-two",
+        "poc/page-three"
       ]
     }
   ],
