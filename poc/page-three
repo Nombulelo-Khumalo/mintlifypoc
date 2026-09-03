@@ -1,0 +1,21 @@
+---
+title: Callout Test
+---
+
+# Callouts
+
+<Note>
+This is a note.
+</Note>
+
+<Warning>
+This is a warning.
+</Warning>
+
+<Info>
+This is informational.
+</Info>
+
+<Check>
+This is a success message.
+</Check>
