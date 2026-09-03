@@ -13,7 +13,9 @@
     {
       "group": "PoC",
       "pages": [
-        "poc/markdown-test"
+        "poc/markdown-test",
+        "poc/page-one",
+        "poc/page-two"
       ]
     }
   ],
