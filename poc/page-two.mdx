@@ -6,6 +6,54 @@ title: Page Two
 
 [Go to Section A](#section-a)
 
+The most interesting one is Absolute Hosting, but there is an important caveat: their packages don't line up perfectly with your 150 GB requirement.
+
+The standout alternatives
+Provider	CPU	RAM	Storage	Price	Compared with your options
+xneelo	2 vCPU	4 GB	150 GB NVMe*	~R468	Current benchmark
+HostKing	4 vCPU	8 GB	160 GB NVMe	R479	Current benchmark
+Absolute Hosting	4 vCPU	4 GB	80 GB NVMe	R236	Much cheaper, but storage short
+Domains.co.za	2 vCPU	4 GB	100 GB NVMe	R419	Cheaper, but 50 GB short
+Telasera	2 vCPU	4 GB	60 GB SSD	R199	Much cheaper, but storage short
+
+xneelo's pricing is R198 for 2/4 compute plus R1.80/GB/month for premium NVMe storage, so 150 GB comes to roughly R468/month including the compute and storage. 
+X
+xneelo
+
+Domains.co.za is particularly interesting. Its 2 vCPU / 4 GB package is R419/month and includes 100 GB NVMe, with the ability to add NVMe at R2.50/GB/month. That means 150 GB would be approximately R544/month, so despite the cheaper base package, it actually isn't better than xneelo once we meet your storage requirement. 
+D
+Domains.co.za
+
+Absolute Hosting has a 4 vCPU / 4 GB / 80 GB NVMe package for R236/month, which is excellent value, but again we'd have a storage problem. They do offer build-your-own VPS configurations, so this is worth investigating. 
+C
+client.absolutehosting.co.za
++1
+
+My conclusion
+
+I wouldn't immediately replace your two shortlisted options.
+
+For your exact requirement of approximately:
+
+2 vCPU / 4 GB RAM / 150 GB NVMe
+
+xneelo still looks like the strongest option I've found, because its decoupled storage model is almost tailor-made for your situation.
+
+However, I think Absolute Hosting is worth one enquiry before you make the final decision. Their pricing is aggressive enough that they could potentially beat both xneelo and HostKing if they can build you a 2/4 VPS with ~150 GB NVMe at a sensible price. Their current infrastructure also advertises AMD EPYC, NVMe, root access, unlimited bandwidth and a South African Tier 3 data centre. 
+client.absolutehosting.co.za
+
+So my shortlist after today's check would be:
+
+🥇 xneelo — best fit for the exact requirement
+🥈 Absolute Hosting — investigate, because the pricing could be substantially better
+🥉 HostKing — excellent fixed package, but forced into 4/8 because of storage
+Domains.co.za — credible, but doesn't beat xneelo once storage is added
+
+I would not choose Telasera for this particular production server despite the attractive R199 price, because the storage is only 60 GB. 
+
+
+If you want, I can do a deeper reliability/support check specifically on xneelo vs HostKing vs Absolute Hosting — that's the part I'd investigate before moving a production MicroK8s/PostgreSQL/Docker server, rather than simply picking the cheapest VPS.
+
 ## Section A
 
 This is Section A.
